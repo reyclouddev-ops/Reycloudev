@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ReyCloudDev - Email Tester</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+<h1>⚡ ReyCloudDev</h1>
+<p>Email Template Tester</p>
+</div>
+
+<div class="card">
+
+<h2>Buat Preview Email</h2>
+
+<div class="inputBox">
+<label>Nama Pembeli</label>
+<input id="nama" type="text" placeholder="Rey">
+</div>
+
+<div class="inputBox">
+<label>Email</label>
+<input id="email" type="email" placeholder="reyclouddev@gmail.com">
+</div>
+
+<div class="inputBox">
+<label>Username Roblox</label>
+<input id="username" type="text" placeholder="acuyykernzz">
+</div>
+
+<div class="inputBox">
+<label>Nama Game</label>
+<input id="game" type="text" placeholder="Drag Drive Simulator">
+</div>
+
+<div class="inputBox">
+<label>Produk</label>
+<input id="produk" type="text" placeholder="Premium Accessories">
+</div>
+
+<div class="inputBox">
+<label>Harga</label>
+<input id="harga" type="text" placeholder="Rp6.313">
+</div>
+
+<div class="inputBox">
+<label>Status</label>
+
+<select id="status">
+
+<option value="processing">
+🟦 Sedang Diproses
+</option>
+
+<option value="success">
+🟩 Berhasil
+</option>
+
+<option value="failed">
+🟥 Gagal
+</option>
+
+</select>
+
+</div>
+
+<button onclick="previewEmail()">
+
+Preview Email
+
+</button>
+
+</div>
+
+<div class="preview">
+
+<iframe
+id="previewFrame"
+frameborder="0">
+</iframe>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
