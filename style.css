@@ -1,0 +1,184 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0d1117;
+color:#fff;
+min-height:100vh;
+display:flex;
+justify-content:center;
+padding:40px 15px;
+}
+
+.container{
+width:100%;
+max-width:1200px;
+}
+
+.logo{
+text-align:center;
+margin-bottom:35px;
+}
+
+.logo h1{
+font-size:40px;
+font-weight:700;
+color:#4ade80;
+}
+
+.logo p{
+margin-top:8px;
+color:#9ca3af;
+}
+
+.card{
+
+background:#161b22;
+border:1px solid #30363d;
+border-radius:18px;
+
+padding:30px;
+
+box-shadow:0 0 40px rgba(0,0,0,.35);
+
+}
+
+.card h2{
+
+margin-bottom:25px;
+
+}
+
+.inputBox{
+
+margin-bottom:18px;
+
+}
+
+.inputBox label{
+
+display:block;
+
+margin-bottom:8px;
+
+font-size:14px;
+
+color:#c9d1d9;
+
+}
+
+.inputBox input,
+.inputBox select{
+
+width:100%;
+
+padding:14px;
+
+border-radius:12px;
+
+border:1px solid #30363d;
+
+background:#0d1117;
+
+color:white;
+
+font-size:15px;
+
+outline:none;
+
+transition:.25s;
+
+}
+
+.inputBox input:focus,
+.inputBox select:focus{
+
+border-color:#4ade80;
+
+box-shadow:0 0 12px rgba(74,222,128,.25);
+
+}
+
+button{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:14px;
+
+background:#22c55e;
+
+color:white;
+
+font-size:16px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.25s;
+
+margin-top:10px;
+
+}
+
+button:hover{
+
+background:#16a34a;
+
+transform:translateY(-2px);
+
+}
+
+.preview{
+
+margin-top:35px;
+
+background:#fff;
+
+border-radius:18px;
+
+overflow:hidden;
+
+border:2px solid #30363d;
+
+}
+
+.preview iframe{
+
+width:100%;
+
+height:700px;
+
+background:white;
+
+}
+
+@media(max-width:768px){
+
+.logo h1{
+
+font-size:30px;
+
+}
+
+.card{
+
+padding:20px;
+
+}
+
+.preview iframe{
+
+height:600px;
+
+}
+
+}
